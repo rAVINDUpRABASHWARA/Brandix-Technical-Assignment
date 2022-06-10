@@ -10,6 +10,7 @@ Assignment is done by using PERN stack as the technology.
   <li><b> Frontend </b> : React and Ant Design Framworks</li>
   <li><b> Backend </b> : Express js</li>
   <li><b> Server </b> : Node js</li>
+  <li><b> IDE </b> : VS Code</li>
 </ul>
 
 <ol>
