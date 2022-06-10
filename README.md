@@ -15,4 +15,8 @@ Assignment is done by using PERN stack as the technology.
 <ol>
   <li>First check for the requirements and see weather if I am having those, or not then i have to install the necessary requirements.</li>
   <li>In this case I am not having <i>Postgress DB</i>, and I have to install that first.</li>
+  <li>As for the IDE, in this case I am using my favourite. VS CODE</li>
+  <li>First create the backend using <code>npm init</code> and <code>npm i express pg cors</code>. express to create the node server and pg to connect the postgress DB and cors to connect front and back ends</li>
+  <li>Next, create the frontend using <code>npx create-react-app frontend</code>.</li>
+  <li>Now, need to connect  the backend to the server and connect with the Postgress database</li>
 </ol>
