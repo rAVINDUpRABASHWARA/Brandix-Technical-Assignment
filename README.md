@@ -13,5 +13,6 @@ Assignment is done by using PERN stack as the technology.
 </ul>
 
 <ol>
-  <li></li>
+  <li>First check for the requirements and see weather if I am having those, or not then i have to install the necessary requirements.</li>
+  <li>In this case I am not having <i>Postgress DB</i>, and I have to install that first.</li>
 </ol>
