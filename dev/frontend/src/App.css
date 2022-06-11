@@ -2,9 +2,6 @@
   text-align: center;
 }
 
-.container {
-  margin-left: 5rem;
-}
 
 .addemployee{
   border: 4px solid black;
@@ -23,7 +20,7 @@
   width: 950px;
   position: absolute;
   z-index: 15;
-  top: 80%;
+  top: 90%;
   left: 30%;
   margin: -100px 0 0 -150px;
 }
@@ -41,4 +38,22 @@
 
 .ant-form-item-label {
   font-size: 20px;
+}
+
+.ant-table-thead > tr >th{
+  color: white;
+  background: #8c8c8c !important;
+}
+
+.ant-table-tbody > tr >td{
+  color: black;
+  background: #d9d9d9 !important;
+}
+
+.valid{
+  color: green;
+}
+
+.invalid{
+  color: red;
 }
