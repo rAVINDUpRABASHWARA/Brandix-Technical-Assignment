@@ -39,6 +39,7 @@ const ViewEmployee = () => {
     ]
     return (
         <Fragment>
+            {/* Employee view Table */}
             <div className="viewall">
                 <div className="divmain">
                     <h1>Employee Data</h1>

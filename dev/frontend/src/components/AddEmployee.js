@@ -72,7 +72,8 @@ setCheck({
         <div className="addemployee">
             <div className='divmain'>
                 <h1>Add Employee</h1>
-                <Form>
+                <Form> 
+                    {/* Employee Add Form */}
                     <Form.Item label={<p style={{fontSize:"18px"}}>Employee Name : </p>} labelCol={{ span: 4 }}>
                         <Input type="text" value={employeeName} onChange={e => setEmployeeName(e.target.value)} onFocus = {handleOnFocus} onBlur = {handleOnBlur} onKeyUp = {handleOnKeyUp}/>
                         {pwdRequisite?<PWDValidatorMessage1 
