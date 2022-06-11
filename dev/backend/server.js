@@ -10,7 +10,6 @@ app.use(cors());
 app.use(express.json()); // req body
 
 //ROUTES
-
 //create a record
 
 app.post("/create", async(req, res) => {
@@ -41,7 +40,7 @@ app.get("/viewall", async(req, res) => {
     }
 });
 
-//delete a record
+//delete a record is implemented temporarily to delete records easily using postman and no frontend implementation for the delete 
 app.delete("/delete/:id", async(req, res) => {
     try {
         const {id} = req.params;
