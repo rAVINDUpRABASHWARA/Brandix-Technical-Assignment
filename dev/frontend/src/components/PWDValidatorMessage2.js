@@ -9,7 +9,7 @@ const PWDValidatorMessage1 = ({
     return (
         <div>
             <p className={numberFlag}>Must contain Numbers</p>
-            <p className={pwdLengthFlag}>Must be 8 Characters long</p>
+            <p className={pwdLengthFlag}>Must be between 9 to 12 Numbers</p>
         </div>
     )
     }
