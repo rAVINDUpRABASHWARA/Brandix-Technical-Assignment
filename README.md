@@ -22,4 +22,6 @@ Assignment is done by using PERN stack as the technology.
   <li>Now, need to connect  the backend to the server and connect with the Postgress database</li>
   <li>Create the create and read operations and also create the delete operation just in case if need to  delete something.</li>
   <li>Check the api calls using postman and confirm that they are working 100% correctly</li>
+  <li>Create the frontend from ant design installed by using <code>npm i antd</code></li>
+  <li>Test the application</li>
 </ol>
