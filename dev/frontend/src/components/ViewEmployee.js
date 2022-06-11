@@ -43,6 +43,7 @@ const ViewEmployee = () => {
                 <div className="divmain">
                     <h1>Employee Data</h1>
                     <Table
+                        bordered = {true}
                         columns={columns}
                         dataSource={dataSource}
                         >    

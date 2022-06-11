@@ -9,7 +9,7 @@ const app = express();
 app.use(cors());
 app.use(express.json()); // req body
 
-//routes
+//ROUTES
 
 //create a record
 
