@@ -3,8 +3,6 @@ import React from 'react'
 //Password validator messagees
 const PWDValidatorMessage1 = ({
     capsLetterFlag,
-    numberFlag,
-    pwdLengthFlag,
 }) => {
     return (
         <div>
