@@ -58,9 +58,9 @@ const handleOnBlur = () => {
 }
 const handleOnKeyUp = (e) => {
     const {value} = e.target;
-    const capsLetterCheck = /[A-Za-z]/.test(value); //check for the capital letters in the password
-    const numberCheck = /[0-9]/.test(value); //check for the numbers in the password
-    const pwdLengthCheck = value.length >= 9 && value.length <= 12; //check for the password length
+    const capsLetterCheck = /[A-Za-z]/.test(value); //check for the letters in the input
+    const numberCheck = /[0-9]/.test(value); //check for the numbers in the input
+    const pwdLengthCheck = value.length >= 9 && value.length <= 12; //check for the input length
 
 setCheck({
     capsLetterCheck,
@@ -72,7 +72,8 @@ setCheck({
         <div className="addemployee">
             <div className='divmain'>
                 <h1>Add Employee</h1>
-                <Form>
+                <Form> 
+                    {/* Employee Add Form */}
                     <Form.Item label={<p style={{fontSize:"18px"}}>Employee Name : </p>} labelCol={{ span: 4 }}>
                         <Input type="text" value={employeeName} onChange={e => setEmployeeName(e.target.value)} onFocus = {handleOnFocus} onBlur = {handleOnBlur} onKeyUp = {handleOnKeyUp}/>
                         {pwdRequisite?<PWDValidatorMessage1 

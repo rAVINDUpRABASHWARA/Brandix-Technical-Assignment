@@ -1,0 +1,3 @@
+<!-- TO RUN THE BACKEND USE THE COMMAND `npm run dev`
+
+TO RUN THE FRONTEND USE THE COMMAND `npm start` -->
