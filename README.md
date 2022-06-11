@@ -20,4 +20,6 @@ Assignment is done by using PERN stack as the technology.
   <li>First create the backend using <code>npm init</code> and <code>npm i express pg cors</code>. express to create the node server and pg to connect the postgress DB and cors to connect front and back ends</li>
   <li>Next, create the frontend using <code>npx create-react-app frontend</code>.</li>
   <li>Now, need to connect  the backend to the server and connect with the Postgress database</li>
+  <li>Create the create and read operations and also create the delete operation just in case if need to  delete something.</li>
+  <li>Check the api calls using postman and confirm that they are working 100% correctly</li>
 </ol>
